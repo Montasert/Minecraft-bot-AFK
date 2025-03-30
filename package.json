@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mineflayer": "^4.27.0"
+  },
+  "name": "home",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Montasert/Minecraft-bot-AFK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Montasert/Minecraft-bot-AFK/issues"
+  },
+  "homepage": "https://github.com/Montasert/Minecraft-bot-AFK#readme",
+  "description": ""
+}

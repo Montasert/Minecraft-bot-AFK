@@ -1,0 +1,157 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install mineflayer
+7 verbose argv "install" "mineflayer"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-03-30T00_01_44_725Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-03-30T00_01_44_725Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1000341504 maxSize:250085376 maxEntrySize:125042688
+12 silly idealTree buildDeps
+13 silly fetch manifest mineflayer@^4.27.0
+14 silly packumentCache full:https://registry.npmjs.org/mineflayer cache-miss
+15 http cache https://registry.npmjs.org/mineflayer 218ms (cache hit)
+16 silly packumentCache full:https://registry.npmjs.org/mineflayer set size:487871 disposed:false
+17 silly placeDep ROOT mineflayer@4.27.0 REPLACE for:  want: ^4.27.0
+18 silly reify moves {}
+19 silly audit bulk request {
+19 silly audit   '@azure/msal-common': [ '14.16.0' ],
+19 silly audit   '@azure/msal-node': [ '2.16.2' ],
+19 silly audit   '@types/node': [ '22.13.14' ],
+19 silly audit   '@types/node-rsa': [ '1.1.4' ],
+19 silly audit   '@types/readable-stream': [ '4.0.18' ],
+19 silly audit   '@xboxreplay/errors': [ '0.1.0' ],
+19 silly audit   '@xboxreplay/xboxlive-auth': [ '3.3.3' ],
+19 silly audit   'abort-controller': [ '3.0.0' ],
+19 silly audit   'aes-js': [ '3.1.2' ],
+19 silly audit   ajv: [ '6.12.6' ],
+19 silly audit   asn1: [ '0.2.3' ],
+19 silly audit   axios: [ '0.21.4' ],
+19 silly audit   'base64-js': [ '1.5.1' ],
+19 silly audit   buffer: [ '6.0.3' ],
+19 silly audit   'buffer-equal': [ '1.0.1' ],
+19 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+19 silly audit   commander: [ '2.20.3' ],
+19 silly audit   debug: [ '4.4.0' ],
+19 silly audit   'discontinuous-range': [ '1.0.0' ],
+19 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+19 silly audit   'endian-toggle': [ '0.0.0' ],
+19 silly audit   'event-target-shim': [ '5.0.1' ],
+19 silly audit   events: [ '3.3.0' ],
+19 silly audit   'fast-deep-equal': [ '3.1.3' ],
+19 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+19 silly audit   'follow-redirects': [ '1.15.9' ],
+19 silly audit   ieee754: [ '1.2.1' ],
+19 silly audit   'json-schema-traverse': [ '0.4.1' ],
+19 silly audit   jsonwebtoken: [ '9.0.2' ],
+19 silly audit   jwa: [ '1.4.1' ],
+19 silly audit   jws: [ '3.2.2' ],
+19 silly audit   'lodash.get': [ '4.4.2' ],
+19 silly audit   'lodash.includes': [ '4.3.0' ],
+19 silly audit   'lodash.isboolean': [ '3.0.3' ],
+19 silly audit   'lodash.isinteger': [ '4.0.4' ],
+19 silly audit   'lodash.isnumber': [ '3.0.3' ],
+19 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+19 silly audit   'lodash.isstring': [ '4.0.1' ],
+19 silly audit   'lodash.merge': [ '4.6.2' ],
+19 silly audit   'lodash.once': [ '4.1.1' ],
+19 silly audit   'lodash.reduce': [ '4.6.0' ],
+19 silly audit   macaddress: [ '0.5.3' ],
+19 silly audit   'minecraft-data': [ '3.85.0' ],
+19 silly audit   'minecraft-folder-path': [ '1.2.0' ],
+19 silly audit   'minecraft-protocol': [ '1.55.0' ],
+19 silly audit   mojangson: [ '2.0.4' ],
+19 silly audit   moo: [ '0.5.2' ],
+19 silly audit   ms: [ '2.1.3' ],
+19 silly audit   nearley: [ '2.20.1' ],
+19 silly audit   'node-fetch': [ '2.7.0' ],
+19 silly audit   'node-rsa': [ '0.4.2' ],
+19 silly audit   'prismarine-auth': [ '2.7.0' ],
+19 silly audit   'prismarine-biome': [ '1.3.0' ],
+19 silly audit   'prismarine-block': [ '1.21.0' ],
+19 silly audit   'prismarine-chat': [ '1.11.0' ],
+19 silly audit   'prismarine-chunk': [ '1.38.1' ],
+19 silly audit   'prismarine-entity': [ '2.5.0' ],
+19 silly audit   'prismarine-item': [ '1.16.0' ],
+19 silly audit   'prismarine-nbt': [ '2.7.0' ],
+19 silly audit   'prismarine-physics': [ '1.10.0' ],
+19 silly audit   'prismarine-realms': [ '1.3.2' ],
+19 silly audit   'prismarine-recipe': [ '1.3.1' ],
+19 silly audit   'prismarine-registry': [ '1.11.0' ],
+19 silly audit   'prismarine-windows': [ '2.9.0' ],
+19 silly audit   'typed-emitter': [ '2.1.0', '1.4.0' ],
+19 silly audit   'prismarine-world': [ '3.6.3' ],
+19 silly audit   process: [ '0.11.10' ],
+19 silly audit   protodef: [ '1.18.0' ],
+19 silly audit   'protodef-validator': [ '1.4.0' ],
+19 silly audit   punycode: [ '2.3.1' ],
+19 silly audit   'railroad-diagrams': [ '1.0.0' ],
+19 silly audit   randexp: [ '0.4.6' ],
+19 silly audit   'readable-stream': [ '4.7.0' ],
+19 silly audit   ret: [ '0.1.15' ],
+19 silly audit   rxjs: [ '7.8.2' ],
+19 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+19 silly audit   semver: [ '7.7.1' ],
+19 silly audit   'smart-buffer': [ '4.2.0' ],
+19 silly audit   string_decoder: [ '1.3.0' ],
+19 silly audit   tr46: [ '0.0.3' ],
+19 silly audit   tslib: [ '2.8.1' ],
+19 silly audit   uint4: [ '0.1.2' ],
+19 silly audit   'undici-types': [ '6.20.0' ],
+19 silly audit   'uri-js': [ '4.4.1' ],
+19 silly audit   uuid: [ '8.3.2' ],
+19 silly audit   'uuid-1345': [ '1.0.2' ],
+19 silly audit   vec3: [ '0.1.10' ],
+19 silly audit   'webidl-conversions': [ '3.0.1' ],
+19 silly audit   'whatwg-url': [ '5.0.0' ],
+19 silly audit   'xxhash-wasm': [ '0.4.2' ],
+19 silly audit   yggdrasil: [ '1.7.0' ],
+19 silly audit   mineflayer: [ '4.27.0' ]
+19 silly audit }
+20 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 16126ms
+21 silly audit report {
+21 silly audit report   axios: [
+21 silly audit report     {
+21 silly audit report       id: 1102472,
+21 silly audit report       url: 'https://github.com/advisories/GHSA-jr5f-v2jv-69x6',
+21 silly audit report       title: 'axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL',
+21 silly audit report       severity: 'high',
+21 silly audit report       vulnerable_versions: '<1.8.2',
+21 silly audit report       cwe: [Array],
+21 silly audit report       cvss: [Object]
+21 silly audit report     },
+21 silly audit report     {
+21 silly audit report       id: 1097679,
+21 silly audit report       url: 'https://github.com/advisories/GHSA-wf5p-g6vw-rhxx',
+21 silly audit report       title: 'Axios Cross-Site Request Forgery Vulnerability',
+21 silly audit report       severity: 'moderate',
+21 silly audit report       vulnerable_versions: '>=0.8.1 <0.28.0',
+21 silly audit report       cwe: [Array],
+21 silly audit report       cvss: [Object]
+21 silly audit report     }
+21 silly audit report   ]
+21 silly audit report }
+22 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/axios 6836ms (cache updated)
+24 silly packumentCache corgi:https://registry.npmjs.org/axios set size:undefined disposed:false
+25 silly packumentCache corgi:https://registry.npmjs.org/@xboxreplay%2fxboxlive-auth cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/@xboxreplay%2fxboxlive-auth 1434ms (cache updated)
+27 silly packumentCache corgi:https://registry.npmjs.org/@xboxreplay%2fxboxlive-auth set size:undefined disposed:false
+28 silly packumentCache corgi:https://registry.npmjs.org/prismarine-auth cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/prismarine-auth 2221ms (cache updated)
+30 silly packumentCache corgi:https://registry.npmjs.org/prismarine-auth set size:undefined disposed:false
+31 silly packumentCache corgi:https://registry.npmjs.org/minecraft-protocol cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/minecraft-protocol 3239ms (cache updated)
+33 silly packumentCache corgi:https://registry.npmjs.org/minecraft-protocol set size:undefined disposed:false
+34 silly packumentCache corgi:https://registry.npmjs.org/mineflayer cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/mineflayer 5603ms (cache updated)
+36 silly packumentCache corgi:https://registry.npmjs.org/mineflayer set size:undefined disposed:false
+37 verbose cwd /data/data/com.termux/files/home
+38 verbose os Linux 4.19.191-g7c18269e227a
+39 verbose node v22.14.0
+40 verbose npm  v10.9.2
+41 verbose exit 0
+42 info ok

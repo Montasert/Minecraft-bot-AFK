@@ -1,3 +1,5 @@
 [user]
 	name = Montasert
 	email = mnv2182191073@gmail.com\n
+[credential]
+	helper = store
